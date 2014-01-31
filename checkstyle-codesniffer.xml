@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.5.1">
+<file name="/tmp/git_temp/lint/cs.php">
+ <error line="2" column="1" severity="error" message="You must use &quot;/**&quot; style comments for a file comment" source="Drupal.Commenting.FileComment.WrongStyle"/>
+ <error line="3" column="1" severity="warning" message="Line exceeds 80 characters; contains 104 characters" source="Drupal.Files.LineLength.TooLong"/>
+ <error line="3" column="1" severity="error" message="No space before comment text; expected &quot;// Wrong formatting. See correct structure formatting: https://drupal.org/coding-standards#controlstruct)&quot; but found &quot;//Wrong formatting. See correct structure formatting: https://drupal.org/coding-standards#controlstruct)&quot;" source="Drupal.Commenting.InlineComment.NoSpaceBefore"/>
+ <error line="4" column="1" severity="error" message="Expected &quot;if (...) {\n&quot;; found &quot;if(...)\n{\n&quot;" source="Drupal.ControlStructures.ControlSignature"/>
+ <error line="6" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="6" column="2" severity="error" message="Line indented incorrectly; expected 2 spaces, found 1" source="Drupal.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="7" column="3" severity="error" message="Expected &quot;elseif (...) {\n&quot;; found &quot;elseif(...)\n{\n&quot;" source="Drupal.ControlStructures.ControlSignature"/>
+ <error line="7" column="3" severity="error" message="elseif must start on a new line" source="Drupal.ControlStructures.ElseCatchNewline.ElseNewline"/>
+ <error line="9" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="9" column="2" severity="error" message="Line indented incorrectly; expected 2 spaces, found 1" source="Drupal.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="10" column="3" severity="error" message="else must start on a new line" source="Drupal.ControlStructures.ElseCatchNewline.ElseNewline"/>
+ <error line="13" column="1" severity="error" message="Files must end in a single new line character" source="Drupal.WhiteSpace.FileEnd.FileEnd"/>
+</file>
+</checkstyle>
